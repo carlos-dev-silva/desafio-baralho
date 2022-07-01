@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { useNavigation } from "@react-navigation/native"
+import { useNavigation } from "@react-navigation/native";
 import { View, Text, Image, TouchableOpacity, ImageBackground } from "react-native";
 import { getCards } from "../../services/axiosClient";
 import { styles } from "./style";
-import backImage from '../../images/fundo.webp'
+import backImage from '../../images/fundo.webp';
 
 const Game = ({ route }) => {
   const { deckId } = route.params;
